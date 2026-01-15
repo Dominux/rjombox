@@ -1,6 +1,8 @@
 <script>
-	const createRoom = () => {
-		console.log('lmao');
+	import API from '$lib/api';
+
+	const createRoom = async () => {
+		await API.createRoom();
 	};
 </script>
 
