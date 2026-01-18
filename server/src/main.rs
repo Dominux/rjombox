@@ -1,4 +1,6 @@
 mod app;
+mod game;
+mod routers;
 
 use crate::app::App;
 
